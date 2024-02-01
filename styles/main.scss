@@ -1,0 +1,14 @@
+@import "./vendor/normalize";
+@import "./partials/colors";
+
+body {
+  background-color: $primary-color;
+}
+
+//Medium screens and up - mobile above here
+@media (min-width: 768px) {
+}
+
+//Big screens - tablet and desktop above here
+@media (min-width: 1024px) {
+}
