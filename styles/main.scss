@@ -1,8 +1,13 @@
 @import "./vendor/normalize";
 @import "./partials/colors";
+@import "./partials/mixins";
 
 body {
   background-color: $primary-color;
+}
+
+.btn1 {
+  @include primary-button();
 }
 
 //Medium screens and up - mobile above here
