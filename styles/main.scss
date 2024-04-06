@@ -4,8 +4,9 @@
 @import "./partials/typography";
 
 body {
-  background-color: $primary-color;
+  // background-color: $primary-color;
   font-family: $primary-font;
+  background-image: $gradient;
 }
 
 .btn1 {
