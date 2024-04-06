@@ -26,14 +26,20 @@ li {
 
 li a {
   display: block;
-  padding: 8px;
+  padding: 14px 16px;
   background-color: black;
   color: $primary-font-color;
-  font-weight: 600;
+  font-weight: 500;
+}
+
+li a:hover {
 }
 
 .btn1 {
   @include primary-button();
+  background-color: $button-color;
+  color: $secondary-font-color;
+  padding: 8px 16px;
 }
 
 //Medium screens and up - mobile above here
