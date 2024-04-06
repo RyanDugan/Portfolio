@@ -30,9 +30,11 @@ li a {
   background-color: black;
   color: $primary-font-color;
   font-weight: 500;
+  text-decoration: none;
 }
 
 li a:hover {
+  background-color: $button-color;
 }
 
 .btn1 {
