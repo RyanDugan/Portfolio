@@ -4,9 +4,13 @@
 @import "./partials/typography";
 
 body {
-  // background-color: $primary-color;
   font-family: $primary-font;
+  color: $primary-font-color;
   background-image: $gradient;
+}
+
+h1 {
+  font-weight: 400;
 }
 
 .btn1 {
