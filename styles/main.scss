@@ -9,10 +9,6 @@ body {
   background-image: $gradient;
 }
 
-h1 {
-  font-weight: 400;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -37,6 +33,30 @@ li a:hover {
   background-color: $button-color;
 }
 
+h1 {
+  font-weight: 400;
+}
+
+.main {
+  display: flex;
+  padding: 30px;
+}
+
+.logo {
+  width: 19em;
+  height: 13em;
+  margin-top: 50px;
+}
+
+.hero {
+  width: 35em;
+  height: 45em;
+}
+
+.invite {
+  padding: 30px;
+  margin: 30px;
+}
 .btn1 {
   @include primary-button();
   background-color: $button-color;
