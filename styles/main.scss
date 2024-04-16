@@ -9,22 +9,19 @@ body {
   background-image: $gradient;
 }
 
-ul {
+.navbar {
+  display: flex;
+  justify-content: space-around;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   width: 100%;
   background-color: $nav-background;
-}
-
-li {
-  float: left;
+  line-height: 50px;
 }
 
 li a {
-  display: block;
-  padding: 14px 16px;
   background-color: black;
   color: $primary-font-color;
   font-weight: 500;
