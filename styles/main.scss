@@ -56,14 +56,19 @@ h1 {
 
 .hero {
   width: 35em;
-  height: 45em;
+  height: 50em;
 }
 
 .invite {
   padding: 60px 60px 0px 10px;
-  margin: 100px 0px 20px 90px;
+  margin: 180px 0px 20px 90px;
   font-size: 2em;
 }
+
+.right {
+  text-align: right;
+}
+
 .btn1 {
   @include primary-button();
   background-color: $button-color;
