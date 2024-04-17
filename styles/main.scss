@@ -73,7 +73,7 @@ h1 {
   @include primary-button();
   background-color: $button-color;
   color: $secondary-font-color;
-  padding: 8px 16px;
+  padding: 16px 18px 16px 18px;
 }
 
 //Medium screens and up - mobile above here
