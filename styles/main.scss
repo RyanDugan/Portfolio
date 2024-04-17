@@ -44,12 +44,16 @@ li a:hover {
 }
 
 .logo {
+  display: flex;
+  justify-content: center;
   width: 19em;
   height: 13em;
   margin-top: 50px;
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   font-weight: 400;
   margin-bottom: 40px;
 }
