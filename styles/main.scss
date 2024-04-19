@@ -32,6 +32,16 @@ li a:hover {
   background-color: $button-color;
 }
 
+.navbar .icon {
+  display: none;
+}
+
+.menu {
+  max-width: 2em;
+  margin: 0.6em 0 0 0;
+  display: none;
+}
+
 .centered {
   max-width: 70em;
   margin: auto;
@@ -82,7 +92,6 @@ h1 {
   padding: 0.5em 0.8em 0.5em 0.8em;
 }
 
-//Big screens
 @media only screen and (max-width: 1024px) {
   .hero {
     width: 25em;
