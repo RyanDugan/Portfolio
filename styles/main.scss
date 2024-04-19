@@ -109,3 +109,44 @@ h1 {
     background-color: transparent;
   }
 }
+
+@media only screen and (max-width: 850px) {
+  .main {
+    padding: 0;
+  }
+  .invite {
+    padding: 0em 1em 0em 0em;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .logo {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .invite {
+    padding: 0;
+    margin: 0;
+  }
+  .hero {
+    width: auto;
+    height: auto;
+  }
+  .menu {
+    display: inline-block;
+  }
+  .full {
+    display: none;
+  }
+  .navbar {
+    background-color: transparent;
+  }
+  .btn1 {
+    align-items: center;
+  }
+}
