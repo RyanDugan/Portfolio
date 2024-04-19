@@ -18,7 +18,7 @@ body {
   overflow: hidden;
   width: 100%;
   background-color: $nav-background;
-  line-height: 50px;
+  line-height: 3.125em;
 }
 
 li a {
@@ -35,12 +35,12 @@ li a:hover {
 .centered {
   max-width: 70em;
   margin: auto;
-  padding: 0 10px 0 10px;
+  padding: 0 0.6em 0 0.6em;
 }
 
 .main {
   display: flex;
-  padding: 30px;
+  padding: 1.875em;
 }
 
 .logo {
@@ -56,18 +56,18 @@ h1 {
   display: flex;
   justify-content: center;
   font-weight: 400;
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
 }
 
 .hero {
   width: 35em;
   height: 50em;
-  border-radius: 12px;
+  border-radius: 0.75em;
 }
 
 .invite {
-  padding: 60px 60px 0px 10px;
-  margin: 180px 0px 20px 90px;
+  padding: 0.5em 1em 0 0.25em;
+  margin: 5em 0 2em 3em;
   font-size: 2em;
 }
 
@@ -79,13 +79,13 @@ h1 {
   @include primary-button();
   background-color: $button-color;
   color: $secondary-font-color;
-  padding: 16px 18px 16px 18px;
+  padding: 0.5em 0.8em 0.5em 0.8em;
 }
 
-//Medium screens and up - mobile above here
-@media (min-width: 768px) {
-}
-
-//Big screens - tablet and desktop above here
-@media (min-width: 1024px) {
+//Big screens
+@media only screen and (max-width: 1024px) {
+  .hero {
+    width: 25em;
+    height: 40em;
+  }
 }
