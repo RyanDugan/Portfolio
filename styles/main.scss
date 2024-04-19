@@ -151,10 +151,12 @@ h1 {
   }
   .invite {
     margin: auto;
+    font-size: 1.5em;
   }
 }
 
 @media only screen and (max-width: 532px) {
   h1 {
+    text-align: center;
   }
 }
