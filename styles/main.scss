@@ -17,7 +17,7 @@ body {
   padding: 0;
   overflow: hidden;
   width: 100%;
-  background-color: $nav-background;
+  background-color: transparent;
   line-height: 3.125em;
 }
 
@@ -135,9 +135,9 @@ h1 {
     display: none;
   }
 
-  .navbar {
-    background-color: transparent;
-  }
+  // .navbar {
+  //   background-color: black;
+  // }
 
   // ul.navbar {
   //   background-color: transparent;
