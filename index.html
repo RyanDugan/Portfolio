@@ -23,7 +23,7 @@
     </ul>
 
     <ul class="navbar sidebar">
-      <li><img class="closebtn" src="./assets/close.png"></li>
+      <li onclick=closeSidebar()><img class="closebtn" src="./assets/close.png"></li>
       <li><a href="https://duganryan.com/">Home</a></li>
       <li><a href="https://duganryan.com/photography-main/">Photography</a></li>
       <li><a href="https://duganryan.com/wireframing-prototyping/">Wireframing & Prototyping</a></li>
@@ -55,9 +55,15 @@
 
   function showSidebar(){
     const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'flex'
+    sidebar.style.display = 'flex';
+    ul.navbar.style.backgroundColor = "black";
+    ul.li.style.backgroundColor = "black";
   }
 
+function closeSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'none';
+}
 </script>
 
   </body>
